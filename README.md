@@ -8,11 +8,11 @@ The steps involved are:
 2. Training the GAN: Train a GAN network to generate new samples of each digit using the selected X samples. This process will be repeated four times for the different X ratios.
 3. Quality Testing Pipeline:
  - Design a pipeline to test the quality of the generated data. The pipeline includes:
-  - Training a recognition model (using LeNet 5 from a previous assignment) with full data as a reference model.
-  - Re-training the recognition model with only X samples of the training data.
-  - Generating synthetic data with sufficient variations.
-  - Training the recognition model again using both X amount of real data and synthetic data.
-  - Comparing the performance of the models trained with different data combinations and X ratios.
+  	- Training a recognition model (using LeNet 5 from a previous assignment) with full data as a reference model.
+ 	 - Re-training the recognition model with only X samples of the training data.
+	  - Generating synthetic data with sufficient variations.
+	  - Training the recognition model again using both X amount of real data and synthetic data.
+	  - Comparing the performance of the models trained with different data combinations and X ratios.
 
 
 Project 2: Multilayer Perceptron (MLP)
